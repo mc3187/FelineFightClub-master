@@ -70,6 +70,9 @@
   <library>
     <asset path="assets\Zombie.png" />
     <asset path="assets\CharSelect.png" update="..\..\..\Pictures\CharSelect.jpg" />
+    <asset path="assets\BackGround2.png" update="..\..\..\Pictures\BackGround2.png" />
+    <asset path="assets\ZombieBackground.png" update="..\..\..\Pictures\ZombieBackground.png" />
+    <asset path="assets\CatCouldUse.png" update="..\..\..\Pictures\CatCouldUse.png" />
   </library>
   <!-- Class files to compile (other referenced classes will automatically be included) -->
   <compileTargets>
