@@ -33,9 +33,20 @@ package
 			FlxG.mouse.show();
 			
 			// allocate a start button object and call startGame on click			
-			startButton = new FlxButton(360, 420, "START", startGame);
+			startButton = new FlxButton(360, 380, "START", startGame);
 			// display start button in game
 			add(startButton);
+			
+			// allocate a start button object and call startGame on click			
+			startButton = new FlxButton(360, 410, "INSTRUCTIONS", startGame);
+			// display start button in game
+			add(startButton);
+			
+			// allocate a start button object and call startGame on click			
+			startButton = new FlxButton(360, 440, "QUIT", startGame);
+			// display start button in game
+			add(startButton);
+			
 		}
 		
 		// switch state when called
@@ -45,6 +56,8 @@ package
 			FlxG.mouse.hide();
 			// switch to PlayState
 			FlxG.switchState(new PlayState);
+			
+			
 		}
 		
 	}

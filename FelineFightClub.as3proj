@@ -20,9 +20,11 @@
   <!-- Build options -->
   <build>
     <option accessible="False" />
+    <option advancedTelemetry="False" />
     <option allowSourcePathOverlap="False" />
     <option benchmark="False" />
     <option es="False" />
+    <option inline="False" />
     <option locale="" />
     <option loadConfig="" />
     <option optimize="True" />
@@ -66,8 +68,8 @@
   </intrinsics>
   <!-- Assets to embed into the output SWF -->
   <library>
-    <asset path="assets\Zombie.png" update="..\..\Pictures\Zombie.png" />
     <asset path="assets\Zombie.png" />
+    <asset path="assets\CharSelect.png" update="..\..\..\Pictures\CharSelect.jpg" />
   </library>
   <!-- Class files to compile (other referenced classes will automatically be included) -->
   <compileTargets>
@@ -85,6 +87,7 @@
   <options>
     <option showHiddenPaths="False" />
     <option testMovie="Default" />
+    <option testMovieCommand="" />
   </options>
   <!-- Plugin storage -->
   <storage />
